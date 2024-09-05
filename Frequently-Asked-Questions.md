@@ -1,0 +1,13 @@
+# Frequently Asked Questions
+
+For now, this is a working document aggregating all of the questions we get from our trial period. We will begin merging similar questions together and organizing them into categories as we go. 
+
+1. How do you know beforehand when to take insulin? Especially on times where you are forced to go off schedule, such as traveling on flights? Is it mostly instinct, or can you somehow predict beforehand when and how your BGL will fluctuate?
+
+**Answer** Great question! There's not much instinct at all! There are a few similar ways of doing this that depend on the method of insulin delivery you use. The [three main methods of insulin delivery](https://diabetes.org/about-diabetes/devices-technology/insulin-pens) are _pens_ (what I use), _syringes_ (I believe they are becoming less popular), and _pumps_ (I think they're becoming more popular as technology improves).
+
+The insulin pens are the simplest to understand, IMO. We need to learn and adjust these two different measures called the [correction factor (CF) and the carbohydrate ratio (CR)](https://www.mountsinai.on.ca/care/lscd/sweet-talk-1/what2019s-a-correction-factor-an-insulin-sensitivity-a-ratio). I inject about four times per day: one rapid-acting insulin for each meal and one slow-acting insulin for the entire day. Before I eat a meal, I need to count the carbs I think are in that meal and choose the correct amount of insulin to inject based on the CF and CR. Gluroo provides users with a table to make this calculation much simpler!
+
+2. Are there any other data you collect in a time-series fashion, or does most of the real-world data follow the structure given here?
+
+Yes! Technically, the insulin dose and the carbohydrate consumption are time-series data, but they are reported as an instance in time. Depending on the type of insulin being administered changes the absorption rate over time, so we get these plots called [insulin action curves (see Types of Insulin).](http://ddi.ucsd.edu/insulearn/terminology.html). The users of most diabetes apps will report the type of insulin they inject. So, app developers can incorporate that into the application to communicate how much **insulin on board** you currently have. The same applies to **carbohydrates on board**; pure sugar like glucose causes your blood sugar to spike much more rapidly than a carbohydrate high in fibre (that's why eating your vegetables is essential!) So, even though you consume the same amount of carbs, you can have very different glucose response curves. If we know the food being consumed, we can create better estimates of how to administer insulin. 
