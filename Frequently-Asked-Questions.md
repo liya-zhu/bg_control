@@ -22,7 +22,7 @@ For now, this is a working document aggregating all of the questions we get from
 
 4. Can we build a model to perdict the blood glucose level after intaking the food that has food_glycemic_index and weights food_g?
 
-> Yes, we can! That will likely be a significant part of our work that gets incorporated into multiple aspects of our project. 
+> **Answer:** Yes, we can! That will likely be a significant part of our work that gets incorporated into multiple aspects of our project. 
 
 
 5. What's the difference between basal and bolus insulin? Do you have a preference over using one or the other (e.g. effectiveness, side effects, etc)?
