@@ -25,9 +25,10 @@ For now, this is a working document aggregating all of the questions we get from
 > **Answer:** Yes, we can! That will likely be a significant part of our work that gets incorporated into multiple aspects of our project. 
 
 
-5. What's the difference between basal and bolus insulin? Do you have a preference over using one or the other (e.g. effectiveness, side effects, etc)? 
+5. Bolus vs. Basal Insulin: 
+> 1. What's the difference between basal and bolus insulin? Do you have a preference over using one or the other (e.g. effectiveness, side effects, etc)? 
 
-6. How does basal insulin compare to bolus insulin in terms of managing blood glucose levels throughout the day? Is one more effective than the other for specific situations or times of day? Are there strategies behind using them together in different dosages to optimize blood sugar control?
+> 2. How does basal insulin compare to bolus insulin in terms of managing blood glucose levels throughout the day? Is one more effective than the other for specific situations or times of day? Are there strategies behind using them together in different dosages to optimize blood sugar control?
 
 > **Answer:** 
 > *  **Basal insulin** is your baseline. Healthy pancreas secrete a small amount of insulin into their bodies to keep sugar levels stable. You take this everyday around the same time, and except for special circumstances, its generally always the same amount but there are adjustments we make to this dose because our bodies and lifestyles change slowly over time.
