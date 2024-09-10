@@ -25,32 +25,65 @@ For now, this is a working document aggregating all of the questions we get from
 > **Answer:** Yes, we can! That will likely be a significant part of our work that gets incorporated into multiple aspects of our project. 
 
 
-5. What's the difference between basal and bolus insulin? Do you have a preference over using one or the other (e.g. effectiveness, side effects, etc)?
+5. What's the difference between basal and bolus insulin? Do you have a preference over using one or the other (e.g. effectiveness, side effects, etc)? 
+
+6. How does basal insulin compare to bolus insulin in terms of managing blood glucose levels throughout the day? Is one more effective than the other for specific situations or times of day? Are there strategies behind using them together in different dosages to optimize blood sugar control?
 
 > **Answer:** 
 > *  **Basal insulin** is your baseline. Healthy pancreas secrete a small amount of insulin into their bodies to keep sugar levels stable. You take this everyday around the same time, and except for special circumstances, its generally always the same amount but there are adjustments we make to this dose because our bodies and lifestyles change slowly over time.
 
 >* **Bolus Insulin** is your rapid-acting insulin. This starts working within 10 minutes and peaks around 40 minutes, it's completely gone after five hours, but its effects for most are fairly negligible after 2-3 hours. We take this for when we eat because we get a massive spike in blood sugar if we don't. [Our blood is only supposed to have ~4g of glucose in it at any given time.](https://journals.physiology.org/doi/full/10.1152/ajpendo.90563.2008) Now look at the back of a can of any soft drink, Cokes have about 45g of sugar! Every time you consume something that exceeds the ability of your baseline insulin to absorb, you need to bolus. 
 
-6. What's the relation between food weight in grams, glycemic index, and blood glucose levels?
+> So there is no preference; you need both, and they do different things; they complement each other. Basal insulin makes bolus insulin more predictable and easier to manage.
 
-> 
+6. What's the relation between food weight in grams, glycemic index, and blood glucose levels? 
 
+7. How do the variables like food_glycemic_index and food_g affect blood glucose levels? Can we build a model to predict these interactions?
+
+> **Answer** The more grams of carbs consumed, the higher it will cause your blood glucose to spike, so the more insulin you need. The Glycemic Index is how rapidly it causes your blood sugar to spike. Essentially, all carbohydrates will eventually be turned into sugar in your body if you can digest them, but the speed at which you can digest them varies pretty dramatically. Generally, the closer a carbohydrate is to pure sugar, the faster your body can absorb it and the higher its index will be. The more fibre a carbohydrate has, the longer it will take to digest. The closer to 0 a Glycemic Index is, the slower the glucose spike will be.
 
 7. Based on the timestamp data (bgl_date_millis), can we design a real-time alert system to warn users of impending blood glucose anomalies?
-8. How do the variables like food_glycemic_index and food_g affect blood glucose levels? Can we build a model to predict these interactions?
-9. How does basal insulin compare to bolus insulin in terms of managing blood glucose levels throughout the day? Is one more effective than the other for specific situations or times of day? Are there strategies behind using them together in different dosages to optimize blood sugar control?
+
+> **Answer** This may be a valuable exercise to familiarize yourself with the data, but these systems already exist in all continuous glucose monitoring apps. The original main purpose of CGMs was to prevent and notify T1Ds of high or low blood glucose. The technology has had a profound impact on the quality of life of T1Ds, second only to the discovery of insulin itself. I don't know if they track the numbers on this, but I would confidently say that CGMs have saved many T1Ds from early accidental death.
+
 10. Are there foods that are considered optimal based on their glycemic index and nutrient profile? Are certain foods recommended for different situations, such as managing hypoglycemia, hyperglycemia, or maintaining stable BGL during normal conditions?
+
 11. What are some misconceptions about T1D that non-diabetics might have?
+
+> **Answer:** It's becoming less common, but people seem to think that T1D is caused by eating too much sugar. T1D is an autoimmune disorder. Autoimmune disorders tend to run in families, but they present differently, so it's partly a genetic problem where the individual's immune system is too easily triggered into attacking something in its own body rather than the invaders it is supposed to attack. I have family members with [Graves Disease](https://www.mountsinai.org/health-library/diseases-conditions/graves-disease), [Hashimoto's Disease](https://www.mayoclinic.org/diseases-conditions/hashimotos-disease/symptoms-causes/syc-20351855), and [Rheumatoid Arthritis](https://www.mayoclinic.org/diseases-conditions/rheumatoid-arthritis/symptoms-causes/syc-20353648), and [Lupus](https://www.mayoclinic.org/diseases-conditions/lupus/symptoms-causes/syc-20365789). 
+
+> **Answer:** There are many other misconceptions like "Why don't you just stop eating carbs?" Which is generally a bad and dangerous thing for T1Ds to do because it greatly increases the chances of [Diabetic Ketoacidosis](https://www.mayoclinic.org/diseases-conditions/diabetic-ketoacidosis/symptoms-causes/syc-20371551). 
+
 12. What are some daily challenges that you and other T1Ds face that isn't obvious to non-diabetics?
-13. Besides insulin some patients may be taking other medications for their Diabetes. With this, would it be intersting for those additional information to be accounted for in visualizations? How would other medications impact daily bgl readings of patients compared to those just on Insulin?
+
+> **Answer** It's annoying to have to carry insulin around with me everywhere. If I forget it in my car, the insulin will probably be ruined from being too hot or cold! There are probably many more that we can add to this list later.
+
+13. Besides insulin, some patients may be taking other medications for their Diabetes. With this, would it be intersting for those additional information to be accounted for in visualizations? How would other medications impact daily bgl readings of patients compared to those just on Insulin?
+
+> **Answer**: Many many factors impact insulin, read: [42 Factors That Affect Blood Glucose?! A Surprising Update](https://diatribe.org/diabetes-management/42-factors-affect-blood-glucose-surprising-update) However, this project will only focus on the **major** factors that affect blood glucose. These other things amount to 5% of the signal in the noise. Once we build strong enough models and are confident we have hit a plateau, we can start looking at ways to incorporate other information to improve our models, but that requires asking more work from diabetics in their tracking, and for most the tradeoff probably isn't there for the added value they might get. 
+
 14. Multiple readings were taken in very short timeframes with 2-5 min between readings in some cases. What type of device was used for the readings? If the readings were taken through devices such as Libre 2, is it possible to know if the readings were within the error margin of 20% to determine the accuracy of the readings?
+
+> **Answer**:
+
 15. Are there specific patterns or best practices for timing doses to optimize blood glucose control?
+
+> **Answer**:
+
+
 16. Can we build a model to perdict the blood glucose level after intaking the food that has food_glycemic_index and weights food_g?
+
+> **Answer**:
+
+
 17. An individual with T1D will not be able to produce insulin effectively. So while managing T1D, is there more emphasis placed on meal timings (i.e when you should eat your meals), or the post-meal insulin dosage?
+
+> **Answer**:
+
+
 18. Based on the plot, it seems as though the insulin dosage timings vary quite a lot. From my understanding, having a meal will increase BGL; this is when insulin could be dosed to reduce BGL. How are the timings of insulin dosage determined? Would this depend on the meal size (eg: thanksgiving dinner vs an average dinner)?
 
-
+> **Answer**:
 
 
 
