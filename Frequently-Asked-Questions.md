@@ -37,9 +37,10 @@ For now, this is a working document aggregating all of the questions we get from
 
 > So there is no preference; you need both, and they do different things; they complement each other. Basal insulin makes bolus insulin more predictable and easier to manage.
 
-6. What's the relation between food weight in grams, glycemic index, and blood glucose levels? 
+6. Food Grams, Glycemic Index, and Blood Glucose Levels:
+    1. What's the relation between food weight in grams, glycemic index, and blood glucose levels? 
 
-7. How do the variables like food_glycemic_index and food_g affect blood glucose levels? Can we build a model to predict these interactions?
+    2. How do the variables like food_glycemic_index and food_g affect blood glucose levels? Can we build a model to predict these interactions?
 
 > **Answer** The more grams of carbs consumed, the higher it will cause your blood glucose to spike, so the more insulin you need. The Glycemic Index is how rapidly it causes your blood sugar to spike. Essentially, all carbohydrates will eventually be turned into sugar in your body if you can digest them, but the speed at which you can digest them varies pretty dramatically. Generally, the closer a carbohydrate is to pure sugar, the faster your body can absorb it and the higher its index will be. The more fibre a carbohydrate has, the longer it will take to digest. The closer to 0 a Glycemic Index is, the slower the glucose spike will be.
 
