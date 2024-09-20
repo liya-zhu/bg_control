@@ -90,10 +90,10 @@ For now, this is a working document aggregating all of the questions we get from
 
 18. As someone with T1D, how do you manage "Intervention Snacks" with a high-GI as indicated by the datasets? In other words, how do you determine if you can manage a snack or if the snack is worthy of insulin dose(s) beforehand?
 
-> **Answer**: Great question! The purpose of intervention snacks is not for enjoyment (although there is no harm in enjoying them, but eating candy at 4am because your blood sugar is going low and your alarms are going off isn't that enjoyable! lol). Intervention snacks are meant to prevent insulin using diabetics (usually T1D) from "going low" i.e. experiencing a *hypo*glycemic event. Healthy individuals their pancreas automatically regulates how much insulin your body needs, if you have low blood sugar your pancreas will stop secreteing insulin. With T1D you don't have this autoregulation, so we are always at risk of taking too much insulin. And having hypoglycemia can be very dangerous. So T1D are almost always within reach of some fast-acting sugar to counteract when their blood sugar goes low. [Hypoglycemia Symptoms](https://www.mayoclinic.org/diseases-conditions/hypoglycemia/symptoms-causes/syc-20373685)
+> **Answer**: Great question! The purpose of intervention snacks is not for enjoyment (although there is no harm in enjoying them, but eating candy at 4am because your blood sugar is going low and your alarms are going off isn't that enjoyable! lol). Intervention snacks are meant to prevent insulin using diabetics (usually T1D) from "going low" i.e. experiencing a *hypo*glycemic event. Healthy individuals their pancreas automatically regulates how much insulin your body needs, if you have low blood sugar your pancreas will stop secreteing insulin. With T1D you don't have this autoregulation, so we are always at risk of taking too much insulin. And having hypoglycemia can be very dangerous. So T1D are almost always within reach of some fast-acting sugar to counteract when their blood sugar goes low. [Hypoglycemia Symptoms](https://www.mayoclinic.org/diseases-conditions/hypoglycemia/symptoms-causes/syc-20373685).
    
 19. How do current methods of automatic insulin dosage work (i.e. OP5 pump integration)? How reliable are they in providing the right dosage at the right time?
 
-
+> **Answer**: 
 
 
