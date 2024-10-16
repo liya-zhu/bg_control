@@ -1,1 +1,1 @@
-Welcome to the bg_control wiki!
+Welcome to the Blood Glucose Control Design Team wiki!
