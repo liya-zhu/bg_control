@@ -64,3 +64,6 @@ Anton Ryavkin is a mathematics undergraduate student at the University of Waterl
 
 #### Tony Chan
 [Tony Chan](https://www.linkedin.com/in/tony-chan-a871a1254/) is a Computer Engineering student at the University of Waterloo with experience in full-stack development for healthcare systems, AI, and machine learning. He has a strong track record in building scalable systems, integrating complex technologies, and solving technical challenges. Tony is passionate about using technology to make a meaningful impact, especially in improving and saving people's lives.
+
+#### Julia Zhu
+[Julia Zhu](https://github.com/liya-zhu) is computer science student at the University of Waterloo. She is excited to bring in her skills in machine learning and software development to make an impact on the lives of people with diabetes.
