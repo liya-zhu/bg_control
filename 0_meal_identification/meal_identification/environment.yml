@@ -1,0 +1,29 @@
+name: meal_identification
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - black
+  - flake8
+  - isort
+  - pip
+  - typer
+  - loguru
+  - tqdm
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - scikit-learn
+  - pytorch
+  - pytorch-lightning
+  - pytorch-forecasting
+  - sktime[all_extras]
+  - numba
+  - seaborn
+  - pip:
+    - python-dotenv
+    - mkdocs
+    - -e .
